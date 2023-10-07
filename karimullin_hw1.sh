@@ -74,7 +74,8 @@ start_daemon()
     daemon_pid=$!
     echo "Daemon process started with PID: $daemon_pid"
 }
-
+ 
+ 
 stop_daemon()
 {
     if [ $(daemon_running) = "0" ]; then
